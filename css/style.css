@@ -11,6 +11,9 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  background-color: rgba(255,255,255,.5);
+  background: url(../img/top_pc.png) no-repeat center top/cover ;
+  height: 130vh
 }
 
 .logo img {
