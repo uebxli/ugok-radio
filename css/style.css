@@ -3,6 +3,7 @@
 body {
   width: 100%;
   padding: 0;
+  margin: 0;
   background-color: #fafafa;
   overflow-x: hidden;
   overflow-x: hidden;
@@ -11,11 +12,15 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
   background-color: rgba(255,255,255,.5);
   background: url(../img/top_pc.png) no-repeat center top/cover ;
   height: 130vh
 }
-
+#header h1{
+  font-size: 3em;
+  margin: 10px;
+}
 .logo img {
   width: 75px;
   height: 75px;
