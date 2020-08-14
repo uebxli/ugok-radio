@@ -11,7 +11,17 @@ header{
     justify-content: space-between;
 }
 
-.logo {
+.logo{
     width: 75px;
     height: 75px;
+}
+.top{
+    margin-left: -8px;
+    margin-top: 75px;
+    height: 500px;
+    width: 100%;
+    line-height: 500px;
+    text-align: center;
+    background:url(img/top_pc.png) no-repeat center center;
+    background-size: cover;
 }
