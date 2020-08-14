@@ -8,10 +8,9 @@ body {
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.logo {
-    width: 75px;
-    height: 75px;
+.logo img{
+    width: 150px;
 }
