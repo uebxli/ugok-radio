@@ -228,6 +228,50 @@ h2 {
   padding: 100px 0;
 }
 
+/*アーカイブ*/
+.archive{
+	background-color: #253c78;
+	color: #ffffff;
+}
+
+.archive_h2_warp{
+	width: 22%;
+	padding: 5%;
+	margin: 0 34%;
+}
+
+.archive h2{
+	text-align: center;
+}
+
+.archive_container{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 5%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.archive_item{
+	width: 33%;
+}
+
+.archive_item h4{
+	margin: 0 16.5%;
+	font-size: 2em;
+}
+
+.archive_item img{
+	width: 70%;
+	height: 70%;
+	margin: 0 16.5%;
+}
+
+.archive_item p{
+	margin: 0 13.5% 0 16.5%;
+	font-size: 1.5em;
+}
+
 footer {
   text-align: center;
 }
