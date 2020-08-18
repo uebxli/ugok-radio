@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&display=swap');
 
 body {
   width: 100%;
@@ -6,12 +7,15 @@ body {
   margin: 0;
   background-color: #fafafa;
   overflow-x: hidden;
-  overflow-x: hidden;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #222;
 }
+
 .top{
   background-color: rgba(255,255,255,.5);
   z-index: 1000;
 }
+
 header {
   display: fixed;
   left: 0;
@@ -20,6 +24,7 @@ header {
   height: 100px;
   background-color: #fff;
 }
+
 .hamnav{
   position: fixed;
   right: -320px;
@@ -88,9 +93,11 @@ h1 {
   border-bottom: 1px solid #eee;
   color: #111;
 }
+
 .hamli a:hover{
   background-color: #eee;
 }
+
 .hamburger_line{
   position: absolute;
   left: 11px;
@@ -99,12 +106,15 @@ h1 {
   background-color: #111;
   transition: all .6s;
 }
+
 hamburger_line1{
   top: 14px;
 }
+
 hamburger_line2{
   top: 20px;
 }
+
 hamburger_line3{
   top: 26px;
 }
@@ -131,6 +141,45 @@ hamburger_line3{
 }
 
 
+/*UGOKラジオとは*/
+.what {
+  padding: 50px 100px;
+  background-image: url(../img/what_back.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.what_item {
+  width: 60%;
+}
+
+.what h2 {
+  font-size: 3.5vw;
+  letter-spacing: .5vw;
+  height: 2.9vw;
+  line-height: 2.9vw;
+  margin: 0;
+  padding-left: .2em;
+  border-left: solid .5em #00c49a;
+}
+
+.what_fcontainer {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.what p {
+  width: 100%;
+  font-size: 2.5vw;
+  margin: 15px 20px 0 0;
+}
+
+.what img {
+  width: 150px;
+}
 
 footer {
   text-align: center;
