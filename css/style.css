@@ -74,7 +74,7 @@ h1 {
   z-index: 500;
   cursor: pointer;
   margin: 5px;
-  /*  transition: all .5s ease-out 0s;*/
+  transition: all .5s ease-out 0s;
 }
 
 .hamul {
@@ -101,44 +101,42 @@ h1 {
 
 .hamburger_line {
   position: absolute;
-  left: 11px;
-  width: 18px;
-  height: 1px;
+  left: 0px;
+  margin-top: 14px;
+  width: 25px;
+  height: 2px;
   background-color: #111;
-  transition: all .6s;
+  transition: all .3s;
 }
 
-hamburger_line1 {
-  top: 14px;
+.hamburger_line2 {
+  margin-top: 24px;
+  opacity: 1;
 }
 
-hamburger_line2 {
-  top: 20px;
-}
-
-hamburger_line3 {
-  top: 26px;
+.hamburger_line3 {
+  margin-top: 34px;
 }
 
 /* ハンバーガーが押されたとき */
 
 .nav_open .hamnav {
-  right: 0;
+  top: 0;
 }
 
 .nav_open .hamburger_line1 {
-  top: 20px;
-  transform: rotate(45deg);
+  top: 10px;
+  transform: rotate(-45deg);
 }
 
 .nav_open .hamburger_line2 {
-  width: 0;
+  opacity: 0;
   left: 30px;
 }
 
 .nav_open .hamburger_line3 {
-  transform: rotate(-45deg);
-  top: 20px;
+  transform: rotate(45deg);
+  top: -10px;
 }
 
 h2 {
@@ -228,47 +226,47 @@ h2 {
 }
 
 /*アーカイブ*/
-.archive{
-	background-color: #253c78;
-	color: #ffffff;
+.archive {
+  background-color: #253c78;
+  color: #ffffff;
 }
 
-.archive_h2_warp{
-	width: 22%;
-	padding: 5%;
-	margin: 0 34%;
+.archive_h2_warp {
+  width: 22%;
+  padding: 5%;
+  margin: 0 34%;
 }
 
-.archive h2{
-	text-align: center;
+.archive h2 {
+  text-align: center;
 }
 
-.archive_container{
-	display: flex;
-	flex-direction: row;
-	padding-bottom: 5%;
-	margin-left: 0%;
-	margin-right: 0%;
+.archive_container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
-.archive_item{
-	width: 33%;
+.archive_item {
+  width: 33%;
 }
 
-.archive_item h4{
-	margin: 0 16.5%;
-	font-size: 2em;
+.archive_item h4 {
+  margin: 0 16.5%;
+  font-size: 2em;
 }
 
-.archive_item img{
-	width: 70%;
-	height: 70%;
-	margin: 0 16.5%;
+.archive_item img {
+  width: 70%;
+  height: 70%;
+  margin: 0 16.5%;
 }
 
-.archive_item p{
-	margin: 0 13.5% 0 16.5%;
-	font-size: 1.5em;
+.archive_item p {
+  margin: 0 13.5% 0 16.5%;
+  font-size: 1.5em;
 }
 
 footer {
