@@ -12,7 +12,9 @@ body {
 }
 
 .top {
+  position: relative;
   background-color: rgba(255, 255, 255, .5);
+  padding-bottom: 30px;
 }
 
 header {
@@ -37,66 +39,69 @@ header {
 }
 .hamul {
   width: 500px;
-  text-align: center;
   margin: 0;
-  padding: 0;
+  padding: 15px;
   list-style: none;
 }
 
 .hamli {
-  text-align: center;
-  padding: 0 14px;
+  padding: 0 5px;
 }
 
 .hamli a {
   display: block;
-  padding: 8px 0;
+  padding: 15px 0;
   border-bottom: 1px solid #eee;
   text-decoration: none;
   color: #111;
+  margin-top: 20px;
 }
 
+/*
 .topimg {
+  position:absolute; 
+  top: 0;
   height: 130vh;
-  z-index: 100;
-  width: 100%;
+  z-index: 10;
+  width: 110%;
 }
+*/
 
 h1 {
-  position: fixed;
+  position: absolute;
   top: 0;
   padding-left: 40%;
   font-size: 3em;
   margin: 0;
   padding-top: 13px;
   color: #222;
-  z-index: 200;
+  z-index: 300;
 }
 
 .logo img {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 20px;
   width: 75px;
   height: 75px;
   padding-top: 10px;
-  z-index: 300;
+  z-index: 200;
 }
 
 /* ハンバーガー部分記述 */
 
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 0;
   padding: 0px;
   width: 50px;
   height: 50px;
-  z-index:600;
   cursor: pointer;
   margin: 5px;
   transition: all .5s ease-out 0s;
+  z-index:600;
 }
 
 .hamburger_line {
@@ -121,7 +126,7 @@ h1 {
 /* ハンバーガーが押されたとき */
 
 .nav_open #hamnav {
-  top: 0;
+  right: 0;
 }
 
 .nav_open .hamburger_line1 {
