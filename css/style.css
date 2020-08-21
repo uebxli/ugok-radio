@@ -11,19 +11,14 @@ body {
   color: #222;
 }
 
-.top {
-  position: relative;
-  background-color: rgba(255, 255, 255, .5);
-  padding-bottom: 30px;
-}
-
 header {
   display: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  height: 100px;
+  height: 80px;
   z-index: 400;
+  background-color: rgba(255, 255, 255, .5);
 }
 
 #hamnav {
@@ -33,10 +28,11 @@ header {
   width: 300px;
   height: 100vh;
   padding-top: 40px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, .8);
   transition: all .5s;
   z-index: 500;
 }
+
 .hamul {
   width: 500px;
   margin: 0;
@@ -53,28 +49,17 @@ header {
   padding: 15px 0;
   border-bottom: 1px solid #eee;
   text-decoration: none;
-  color: #111;
+  color: #222;
   margin-top: 20px;
 }
 
-/*
-.topimg {
-  position:absolute; 
-  top: 0;
-  height: 130vh;
-  z-index: 10;
-  width: 110%;
-}
-*/
-
 h1 {
   position: absolute;
-  top: 0;
-  padding-left: 40%;
-  font-size: 3em;
+  top: 30px;
+  left: 95px;
+  font-size: 2em;
   margin: 0;
-  padding-top: 13px;
-  color: #222;
+  color: #d36582;
   z-index: 300;
 }
 
@@ -82,8 +67,8 @@ h1 {
   position: absolute;
   top: 0;
   left: 20px;
-  width: 75px;
-  height: 75px;
+  width: 60px;
+  height: 60px;
   padding-top: 10px;
   z-index: 200;
 }
@@ -93,7 +78,7 @@ h1 {
 
 .hamburger {
   position: fixed;
-  top: 20px;
+  top: 13px;
   right: 0;
   padding: 0px;
   width: 50px;
@@ -101,7 +86,7 @@ h1 {
   cursor: pointer;
   margin: 5px;
   transition: all .5s ease-out 0s;
-  z-index:600;
+  z-index: 600;
 }
 
 .hamburger_line {
@@ -189,6 +174,13 @@ h2 {
   width: 150px;
 }
 
+.top{
+  background-image: url(../img/top_pc.png);
+  height: 928px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 /*メンバー紹介*/
 
@@ -214,11 +206,12 @@ h2 {
   color: black;
 }
 
-.twicasicon,.twittericon {
+.twicasicon,
+.twittericon {
   width: 4%;
   position: relative;
   left: 30%;
-  transform: translate(-80%,-50%);
+  transform: translate(-80%, -50%);
   top: -115px;
 }
 
@@ -255,7 +248,7 @@ h2 {
   left: 50%;
   transform: translate(-20%);
   top: -100px;
-  border-bottom: dotted 4px white; 
+  border-bottom: dotted 4px white;
 }
 
 .word {
@@ -268,7 +261,8 @@ h2 {
   top: -80px;
 }
 
-.maako .name,.maako .hoby{
+.maako .name,
+.maako .hoby {
   border-color: black;
 }
 
