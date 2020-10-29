@@ -73,6 +73,14 @@ h1 {
   z-index: 200;
 }
 
+/*タブレット・スマホ用ヘッダー*/
+.phone {
+  display: none;
+  background-color: transparent;
+}
+
+
+
 /* ハンバーガー部分記述 */
 
 
@@ -357,3 +365,6 @@ footer {
   text-align: center;
   margin: 25px;
 }
+
+
+
