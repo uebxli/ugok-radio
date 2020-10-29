@@ -379,7 +379,8 @@ footer {
   }
 
   #hamnav {
-    height: 160px;
+  width: 200px;
+  height: 100vh;
   }
 
   .hamul {
