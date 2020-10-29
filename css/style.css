@@ -73,6 +73,14 @@ h1 {
   z-index: 200;
 }
 
+/*タブレット・スマホ用ヘッダー*/
+.phone {
+  display: none;
+  background-color: transparent;
+}
+
+
+
 /* ハンバーガー部分記述 */
 
 
@@ -361,3 +369,5 @@ footer {
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   
 }
+
+
