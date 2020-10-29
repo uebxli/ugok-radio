@@ -279,6 +279,7 @@ h2 {
 /*配信内容*/
 .contents {
   padding: 50px 100px;
+  margin-bottom: 30px;
   background-image: url(../img/contants_back.png);
   background-size: cover;
   background-position: right;
@@ -287,7 +288,7 @@ h2 {
 
 .contents h2 {
   width: 15.5vw;
-  margin: 0 auto 100px auto;
+  margin: 90px auto 100px auto;
   border-color: #00c49a;
 }
 
@@ -315,6 +316,26 @@ h2 {
 .contants_item {
   text-align: center;
   padding: 100px 0;
+}
+
+.reality {
+  margin: 70px 0;
+  text-align: center;
+}
+
+.reality a {
+  display: inline-block;
+  color: #333;
+  font-size: 25px;
+  transition: .3s;
+}
+
+.reality img {
+  width: 20px;
+}
+
+.reality a:hover {
+  color: #00c49a;
 }
 
 /*アーカイブ*/
