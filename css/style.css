@@ -321,6 +321,7 @@ h2 {
 .archive {
   background-color: #253c78;
   color: #ffffff;
+    
 }
 
 .archive_h2_warp {
@@ -347,7 +348,7 @@ h2 {
 
 .archive_item h4 {
   margin: 0 16.5%;
-  font-size: 2em;
+  font-size: 2vw;
 }
 
 .archive_item img {
@@ -358,7 +359,7 @@ h2 {
 
 .archive_item p {
   margin: 0 13.5% 0 16.5%;
-  font-size: 1.5em;
+  font-size: 1.8vw;
 }
 
 footer {
