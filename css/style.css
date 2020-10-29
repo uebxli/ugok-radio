@@ -182,7 +182,7 @@ h2 {
   width: 150px;
 }
 
-.top{
+.top {
   background-image: url(../img/top_pc.png);
   height: 928px;
   background-repeat: no-repeat;
@@ -342,6 +342,7 @@ h2 {
 .archive {
   background-color: #253c78;
   color: #ffffff;
+    
 }
 
 .archive_h2_warp {
@@ -368,7 +369,7 @@ h2 {
 
 .archive_item h4 {
   margin: 0 16.5%;
-  font-size: 2em;
+  font-size: 2vw;
 }
 
 .archive_item img {
@@ -379,7 +380,7 @@ h2 {
 
 .archive_item p {
   margin: 0 13.5% 0 16.5%;
-  font-size: 1.5em;
+  font-size: 1.8vw;
 }
 
 footer {
@@ -388,7 +389,140 @@ footer {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  /*ヘッダー部分*/
+  .pc {
+    display: none;
+  }
+
+  .phone {
+    display: block;
+  }
+
+  #hamnav {
+  width: 200px;
+  height: 100vh;
+  }
+
+  .hamul {
+    height: 150px;
+  }
+
+  .hamli a {
+    font-size: 15px;
+    line-height: 35px;
+  }
+
+  .top {
+    margin-top: 0px;
+    height: 300px;
+  }
+
+  .logo img {
+    top: 0;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+  }
+
+  h1 {
+    top: 30px;
+    left: 80px;
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  .top {
+    background-image: url(../img/top_phone.png);
+    height: 928px;
+  }
   
+  
+  /*メンバー紹介*/
+
+.intro {
+  text-align: center;
+}
+
+.chamu {
+  background-color: #2b59c3;
+  width: 100%;
+  color: white;
+}
+
+.akari {
+  background-color: #d36582;
+  width: 100%;
+  color: white;
+}
+
+.maako {
+  background-color: #ffe95c;
+  width: 100%;
+  color: black;
+}
+
+.twicasicon,
+.twittericon {
+  width: 4%;
+  position: relative;
+  left: 30%;
+  transform: translate(-80%, -50%);
+  top: -70px;
+}
+
+.twittericon {
+  top: -75px;
+}
+
+.icon {
+  width: 20%;
+  position: relative;
+  left: -20%;
+  top: 50px;
+  transform: translate(-10%);
+}
+
+.name {
+  width: 40%;
+  border-left: none;
+  border-bottom: solid 2px white;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 10px;
+  position: relative;
+  left: 40%;
+  transform: translate(5%);
+  top: -50px;
+}
+
+.hoby {
+  text-align: left;
+  font-size: 2.5vw;
+  width: 40%;
+  position: relative;
+  left: 50%;
+  transform: translate(-20%);
+  top: -70px;
+  border-bottom: dotted 4px white;
+}
+
+.word {
+  text-align: left;
+  font-size: 2vw;
+  width: 40%;
+  position: relative;
+  left: 50%;
+  transform: translate(-20%);
+  top: -60px;
+}
+
+.maako .name,
+.maako .hoby {
+  border-color: black;
 }
 
 
+
+}
