@@ -352,34 +352,44 @@ h2 {
 
 .archive h2 {
   text-align: center;
+  margin-bottom: 40%  
 }
 
 .archive_container {
   display: flex;
   flex-direction: row;
-  padding-bottom: 5%;
-  margin-left: 0%;
-  margin-right: 0%;
+  padding-bottom: 3%;
+  margin-left: 9%;
+  margin-right: 1%;
 }
 
 .archive_item {
-  width: 33%;
+  width: 30%;
 }
 
 .archive_item h4 {
-  margin: 0 16.5%;
-  font-size: 2vw;
+  margin: 0 25%;
+  font-size: 1.8vw;
+}
+
+.archive_item a{
+  width: 0;  
+  height: 0;
+  margin: 0 25%;
 }
 
 .archive_item img {
-  width: 70%;
-  height: 70%;
-  margin: 0 16.5%;
+  width: 50%;
+  height: 50%;
+}
+
+.archive_item img:hover{
+  opacity: 0.5;  
 }
 
 .archive_item p {
-  margin: 0 13.5% 0 16.5%;
-  font-size: 1.8vw;
+  margin: 0 22.5% 0 25%;
+  font-size: 1.2vw;
 }
 
 footer {
@@ -523,5 +533,33 @@ footer {
 }
 
 
+/*アーカイブ*/
+
+.archive_container {
+  padding-bottom: 5%;
+  margin-left: 4%;
+  margin-right: 0;
+}
+
+.archive_item {
+  width: 32%;
+}
+
+.archive_item h4 {
+  margin: 0 17.5%;
+}
+
+.archive_item a{
+  margin: 0 17.5%;
+}
+    
+.archive_item img {
+  width: 20vw;
+  height: 7vh;
+}
+
+.archive_item p {
+  margin: 0 10% 0 16%;
+}
 
 }
