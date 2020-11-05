@@ -150,6 +150,8 @@ h2 {
 /*UGOKラジオとは*/
 .what {
   padding: 50px 100px;
+  width: 60%;
+  margin: 50px auto;
   background-image: url(../img/what_back.png);
   background-size: contain;
   background-position: center;
@@ -158,10 +160,15 @@ h2 {
 
 .what_item {
   width: 60%;
+  margin-right: 10%;
 }
 
 .what h2 {
   margin: 0;
+  margin-bottom: 30px;
+  height: 2.7vw;
+  line-height: 2.7vw;
+  font-size: 2.7vw;
   border-color: #00c49a;
 }
 
@@ -174,7 +181,7 @@ h2 {
 
 .what p {
   width: 100%;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   margin: 15px 20px 0 0;
 }
 
@@ -355,7 +362,7 @@ h2 {
 
 .archive h2 {
   text-align: center;
-  margin-bottom: 40%  
+  margin-bottom: 40%
 }
 
 .archive_container {
@@ -375,8 +382,8 @@ h2 {
   font-size: 1.8vw;
 }
 
-.archive_item a{
-  width: 0;  
+.archive_item a {
+  width: 0;
   height: 0;
   margin: 0 25%;
 }
@@ -386,8 +393,8 @@ h2 {
   height: 50%;
 }
 
-.archive_item img:hover{
-  opacity: 0.5;  
+.archive_item img:hover {
+  opacity: 0.5;
 }
 
 .archive_item p {
@@ -412,8 +419,8 @@ footer {
   }
 
   #hamnav {
-  width: 200px;
-  height: 100vh;
+    width: 200px;
+    height: 100vh;
   }
 
   .hamul {
@@ -449,120 +456,161 @@ footer {
     background-image: url(../img/top_phone.png);
     height: 928px;
   }
+
+  /*ugokラジオとは*/
+  .what {
+    margin: 10px auto;
+  }
+
+  .what h2 {
+    font-size: 3.5vw;
+    height: 3.5vw;
+    line-height: 3.5vw;
+  }
   
+  .what p {
+    font-size: 2.8vw;
+  }
   
+  .what a {
+    width: 30%;
+    text-align: right;
+  }
+
+  .what img {
+    width: 100%;
+  }
+
   /*メンバー紹介*/
 
-.intro {
-  text-align: center;
-}
+  .intro {
+    text-align: center;
+  }
 
-.chamu {
-  background-color: #2b59c3;
-  width: 100%;
-  color: white;
-}
+  .chamu {
+    background-color: #2b59c3;
+    width: 100%;
+    color: white;
+  }
 
-.akari {
-  background-color: #d36582;
-  width: 100%;
-  color: white;
-}
+  .akari {
+    background-color: #d36582;
+    width: 100%;
+    color: white;
+  }
 
-.maako {
-  background-color: #ffe95c;
-  width: 100%;
-  color: black;
-}
+  .maako {
+    background-color: #ffe95c;
+    width: 100%;
+    color: black;
+  }
 
-.twicasicon,
-.twittericon {
-  width: 4%;
-  position: relative;
-  left: 30%;
-  transform: translate(-80%, -50%);
-  top: -70px;
-}
+  .twicasicon,
+  .twittericon {
+    width: 4%;
+    position: relative;
+    left: 30%;
+    transform: translate(-80%, -50%);
+    top: -70px;
+  }
 
-.twittericon {
-  top: -75px;
-}
+  .twittericon {
+    top: -75px;
+  }
 
-.icon {
-  width: 20%;
-  position: relative;
-  left: -20%;
-  top: 50px;
-  transform: translate(-10%);
-}
+  .icon {
+    width: 20%;
+    position: relative;
+    left: -20%;
+    top: 50px;
+    transform: translate(-10%);
+  }
 
-.name {
-  width: 40%;
-  border-left: none;
-  border-bottom: solid 2px white;
-  text-align: left;
-  margin: 0;
-  padding-bottom: 10px;
-  position: relative;
-  left: 40%;
-  transform: translate(5%);
-  top: -50px;
-}
+  .name {
+    width: 40%;
+    border-left: none;
+    border-bottom: solid 2px white;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 10px;
+    position: relative;
+    left: 40%;
+    transform: translate(5%);
+    top: -50px;
+  }
 
-.hoby {
-  text-align: left;
-  font-size: 2.5vw;
-  width: 40%;
-  position: relative;
-  left: 50%;
-  transform: translate(-20%);
-  top: -70px;
-  border-bottom: dotted 4px white;
-}
+  .hoby {
+    text-align: left;
+    font-size: 2.5vw;
+    width: 40%;
+    position: relative;
+    left: 50%;
+    transform: translate(-20%);
+    top: -70px;
+    border-bottom: dotted 4px white;
+  }
 
-.word {
-  text-align: left;
-  font-size: 2vw;
-  width: 40%;
-  position: relative;
-  left: 50%;
-  transform: translate(-20%);
-  top: -60px;
-}
+  .word {
+    text-align: left;
+    font-size: 2vw;
+    width: 40%;
+    position: relative;
+    left: 50%;
+    transform: translate(-20%);
+    top: -60px;
+  }
 
-.maako .name,
-.maako .hoby {
-  border-color: black;
-}
+  .maako .name,
+  .maako .hoby {
+    border-color: black;
+  }
 
+  /* 配信内容 */
+  .contents {
+    width: 80%;
+    padding: 30px 50px;
+    background-position: center;
+  }
+  
+  .contents h2 {
+    font-size: 3.5vw;
+    width: 15vw;
+    height: 3.5vw;
+    line-height: 3.5vw;
+    margin: 50px auto;
+  }
 
-/*アーカイブ*/
+  .contents p {
+    font-size: 2.8vw;
+  }
+  
+  /*アーカイブ*/
 
-.archive_container {
-  padding-bottom: 5%;
-  margin-left: 4%;
-  margin-right: 0;
-}
+  .archive_container {
+    padding-bottom: 5%;
+    margin-left: 4%;
+    margin-right: 0;
+  }
 
-.archive_item {
-  width: 32%;
-}
+  .archive_item {
+    width: 32%;
+  }
 
-.archive_item h4 {
-  margin: 0 17.5%;
-}
+  .archive_item h4 {
+    margin: 0 17.5%;
+  }
 
-.archive_item a{
-  margin: 0 17.5%;
-}
-    
-.archive_item img {
-  width: 20vw;
-  height: 7vh;
-}
+  .archive_item a {
+    margin: 0 17.5%;
+  }
 
-.archive_item p {
-  margin: 0 10% 0 16%;
-}
+  .archive_item img {
+    width: 20vw;
+    height: 7vh;
+  }
+
+  .archive_item p {
+    margin: 0 10% 0 16%;
+  }
 
 }
