@@ -150,6 +150,8 @@ h2 {
 /*UGOKラジオとは*/
 .what {
   padding: 50px 100px;
+  width: 60%;
+  margin: 50px auto;
   background-image: url(../img/what_back.png);
   background-size: contain;
   background-position: center;
@@ -158,10 +160,15 @@ h2 {
 
 .what_item {
   width: 60%;
+  margin-right: 10%;
 }
 
 .what h2 {
   margin: 0;
+  margin-bottom: 30px;
+  height: 2.7vw;
+  line-height: 2.7vw;
+  font-size: 2.7vw;
   border-color: #00c49a;
 }
 
@@ -174,7 +181,7 @@ h2 {
 
 .what p {
   width: 100%;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   margin: 15px 20px 0 0;
 }
 
@@ -450,6 +457,19 @@ footer {
     height: 928px;
   }
   
+  /*ugokラジオとは*/
+  .what {
+    margin: 10px auto;
+  }
+  
+  .what a {
+    width: 30%;
+    text-align: right;
+  }
+  
+  .what img {
+    width: 100%;
+  }
   
   /*メンバー紹介*/
 
