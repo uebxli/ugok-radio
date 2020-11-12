@@ -362,7 +362,13 @@ h2 {
 
 .archive h2 {
   text-align: center;
-  margin-bottom: 40%
+  margin-bottom: 40%;
+    width: 15vw;
+  height: 2.7vw;
+  line-height: 2.7vw;
+  font-size: 2.7vw;
+  margin: 90px auto;
+  border-color: #fafafa;  
 }
 
 .archive_container {
@@ -415,15 +421,20 @@ h2 {
 
 .report h2 {
     text-align: center;
-  border-color: #00c49a;
+    border-color: #00c49a;
     color: #222;
+    width: 30vw;
+    height: 2.7vw;
+    line-height: 2.7vw;
+    font-size: 2.7vw;
+    margin: 90px auto;
 }
 
 .report h3 {
     font-size: 2vw;
     margin-top: 10%;
     text-align: center;
-    border-bottom: dotted 2px #222;
+    border-bottom: dashed 2px #222;
 }
 
 .report h4 {
@@ -432,11 +443,13 @@ h2 {
 }
 
 .report p {
+    font-size: 1.2vw;
     color: #222;
 }
 
 .mokuteki {
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .tuikyashu {
@@ -446,6 +459,7 @@ h2 {
 }
 
 .graph {
+    width: 35vw;
     clear: both;
     margin: 7% 0 7% 2%;
 }
@@ -462,13 +476,35 @@ h2 {
 
 .kiroku_2 p {
     margin-top: 0;
-    margin-bottom: 2%;
+    margin-bottom: 25%;
     padding: 0 0 0 10%;
 }
 
+.kiroku_3 {
+      clear: both; 
+}
 
-footer {
-  clear: both;  
+.kiroku_3 p {
+    margin-right: 2%;
+    text-align: center;
+}
+
+/*.sns_img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80em;
+}
+
+.tweet_img {
+    width: 30%;
+}
+
+.blog_img {
+    width: 20%;
+}*/
+
+footer { 
   text-align: center;
   margin: 25px;
 }
@@ -690,8 +726,13 @@ footer {
 
 .report p {
     font-size: 2vw;
+    text-align: left;
 }
 
+    .kiroku_1 p {
+        text-align: left;
+    }    
+    
 .tuikyashu {
     width: 100%;
     margin: 0;
