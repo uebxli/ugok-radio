@@ -433,6 +433,7 @@ h2 {
 .report h3 {
     font-size: 2vw;
     margin-top: 10%;
+    margin-bottom: 4%;
     text-align: center;
     border-bottom: dashed 2px #222;
 }
@@ -453,6 +454,7 @@ h2 {
 }
 
 .tuikyashu {
+    margin-top: 0;
     margin-bottom:2%;
     width: 50%;
     float: left;
@@ -470,6 +472,7 @@ h2 {
 
 .avatar {
     margin-right: 2%;
+    margin-bottom: 10%;
     width: 20%;
     float: left;
 }
@@ -486,23 +489,25 @@ h2 {
 
 .kiroku_3 p {
     margin-right: 2%;
-    text-align: center;
 }
 
-/*.sns_img {
+.sns_img {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 80em;
 }
 
-.tweet_img {
+.tweet {
     width: 30%;
+    height: 30%;
 }
 
 .blog_img {
     width: 20%;
-}*/
+    height: 20%;
+    padding: 0 1%;
+}
 
 footer { 
   text-align: center;
@@ -687,7 +692,10 @@ footer {
   }
   
   /*アーカイブ*/
-
+    .archive h2 {
+        width: 100%;
+    }
+    
   .archive_container {
     padding-bottom: 5%;
     margin-left: 4%;
@@ -708,7 +716,7 @@ footer {
 
   .archive_item img {
     width: 20vw;
-    height: 7vh;
+      height: 15vh;
   }
 
   .archive_item p {
@@ -716,6 +724,10 @@ footer {
   }
     
   /*レポート*/
+    .report h2 {
+        width: 100%;
+    }    
+
 .report_item {
     margin-top: 20%;
 }
@@ -733,6 +745,11 @@ footer {
         text-align: left;
     }    
     
+    .kiroku_2 p {
+        padding: 0;
+        margin-bottom: 22%;
+    }
+    
 .tuikyashu {
     width: 100%;
     margin: 0;
@@ -747,6 +764,25 @@ footer {
 .avatar {
     width: 35%;
     float: left;
-}  
+    margin-bottom: 0;
+}
 
+.sns_img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 48em;
+}    
+    
+.tweet {
+    width: 10%;
+    height: 10%;
+}
+
+.blog_img {
+    width: 10%;
+    height: 10%;
+    padding: 0 1%;
+}
+    
 }
